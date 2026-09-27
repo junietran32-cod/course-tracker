@@ -115,7 +115,7 @@ function Auth({ redirectAfterAuth }: AuthProps = {}) {
               <GraduationCap className="size-6" />
             </span>
             <h1 className="text-xl font-semibold tracking-tight">
-              CATS — Course Application Tracking System
+              Course Tracker
             </h1>
             <p className="mt-1 text-sm text-muted-foreground">
               Sign in with your work email to continue
@@ -171,7 +171,8 @@ function Auth({ redirectAfterAuth }: AuthProps = {}) {
                 <CardHeader>
                   <CardTitle className="text-lg">Almost there</CardTitle>
                   <CardDescription>
-                    Choose how you'll use CATS. This sets up your training profile.
+                    Choose how you'll use Course Tracker. This sets up your
+                    training profile.
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="flex flex-col gap-3">

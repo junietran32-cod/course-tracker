@@ -1,7 +1,7 @@
 {
-  "name": "freebuff.com application",
-  "short_name": "freebuff.com",
-  "description": "freebuff.com application",
+  "name": "Course Tracker",
+  "short_name": "Course Tracker",
+  "description": "Company training applications and approvals",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

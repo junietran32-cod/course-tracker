@@ -20,7 +20,7 @@ export const currentUser = query({
 });
 
 /**
- * Bootstrap the CATS profile for a newly signed-up user.
+ * Bootstrap the Course Tracker profile for a newly signed-up user.
  *
  * The user picks Employee or Manager at sign-up (Administrator management is a
  * later version). Existing profiles are left untouched, so signing in again

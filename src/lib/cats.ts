@@ -1,4 +1,4 @@
-// Shared client-side metadata + formatting helpers for CATS.
+// Shared client-side metadata + formatting helpers for Course Tracker.
 
 export type CourseCategory =
   | "internal_training"

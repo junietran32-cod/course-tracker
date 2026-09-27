@@ -27,9 +27,9 @@ export function AppHeader({ pendingCount }: { pendingCount?: number }) {
             <GraduationCap className="size-5" />
           </span>
           <span className="flex flex-col items-start leading-none">
-            <span className="text-[15px] font-semibold tracking-tight">CATS</span>
+            <span className="text-[15px] font-semibold tracking-tight">Course Tracker</span>
             <span className="mt-0.5 text-[11px] text-muted-foreground">
-              Course Application Tracking
+              Training applications and approvals
             </span>
           </span>
         </button>

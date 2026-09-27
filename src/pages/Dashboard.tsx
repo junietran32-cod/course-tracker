@@ -81,8 +81,8 @@ export default function Dashboard() {
           </span>
           <h1 className="text-xl font-semibold tracking-tight">Set up your profile</h1>
           <p className="mt-2 text-sm text-muted-foreground">
-            Choose how you'll use CATS. This sets your default training budget and
-            entitlement.
+            Choose how you'll use Course Tracker. This sets your default training
+            budget and entitlement.
           </p>
           <div className="mt-6 flex w-full flex-col gap-3">
             <Button onClick={() => handleRolePick("employee")} className="w-full">

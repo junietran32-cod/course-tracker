@@ -42,9 +42,9 @@ export default function Landing() {
               <GraduationCap className="size-5" />
             </span>
             <span className="flex flex-col leading-none">
-              <span className="text-[15px] font-semibold tracking-tight">CATS</span>
+              <span className="text-[15px] font-semibold tracking-tight">Course Tracker</span>
               <span className="mt-0.5 text-[11px] text-muted-foreground">
-                Course Application Tracking
+                Training applications and approvals
               </span>
             </span>
           </div>
@@ -56,7 +56,7 @@ export default function Landing() {
           <div className="flex items-center gap-2">
             {isAuthenticated ? (
               <Button size="sm" onClick={() => navigate("/dashboard")} className="gap-2">
-                Open CATS
+                Open Course Tracker
                 <ArrowRight className="size-4" />
               </Button>
             ) : (
@@ -88,9 +88,9 @@ export default function Landing() {
             <span className="text-primary">approved without the paper trail</span>
           </h1>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            CATS lets employees apply for internal training, external courses and
-            professional certifications — and gives managers one clean queue to
-            approve or reject with a recorded reason.
+            Course Tracker lets employees apply for internal training, external
+            courses and professional certifications — and gives managers one
+            clean queue to approve or reject with a recorded reason.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button size="lg" className="gap-2" onClick={() => navigate(ctaHref)}>
@@ -278,7 +278,7 @@ export default function Landing() {
               under a minute.
             </p>
             <Button size="lg" className="mt-6 gap-2" onClick={() => navigate(ctaHref)}>
-              {isAuthenticated ? "Open my dashboard" : "Sign in to CATS"}
+              {isAuthenticated ? "Open my dashboard" : "Sign in to Course Tracker"}
               <ArrowRight className="size-4" />
             </Button>
           </div>
@@ -287,7 +287,7 @@ export default function Landing() {
 
       <footer className="border-t border-border/70">
         <div className="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-2 px-6 py-6 text-xs text-muted-foreground sm:flex-row">
-          <span>CATS · Course Application Tracking System</span>
+          <span>Course Tracker · Company training application system</span>
           <span>Company intranet · Version 1</span>
         </div>
       </footer>
